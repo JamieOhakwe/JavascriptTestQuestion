@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: #F63D6B;
+    padding: 3rem 3rem;
+    display: flex;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.container2{
+    background-color: rgb(195, 195, 195);
+    width: 40rem;
+    height: 20rem;
+    padding: 3rem 3rem;
+}
+.inputContainer{
+    display: flex;
+    gap: 2rem;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font: bold;
+    width: 7rem;
+}
+button{
+    padding: 0.4rem 2rem;
+    margin-left: 2rem;
+    background-color: #F63D6B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.payBox{
+    display: flex;
+    margin-top: 2rem;
+}
