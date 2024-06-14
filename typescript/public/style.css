@@ -16,13 +16,25 @@
 }
 .container2{
     background-color: rgb(195, 195, 195);
-    width: 40rem;
-    height: 20rem;
+    
+    /* height: 20rem; */
     padding: 3rem 3rem;
+}
+input{
+    border: none;
+    padding: 1rem 2rem;
+    width: 4rem;
+}
+select{
+    border: none;
+    padding: 1rem 2rem;
 }
 .inputContainer{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
+    margin: 3rem 5rem;
 }
 .inputBox{
     display: flex;
@@ -32,7 +44,7 @@
     width: 7rem;
 }
 button{
-    padding: 0.4rem 2rem;
+    padding: 0.2rem 1rem;
     margin-left: 2rem;
     background-color: #F63D6B;
     border: none;
@@ -42,5 +54,10 @@ button{
 }
 .payBox{
     display: flex;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+}
+.logo{
+    color: gray;
+    position: relative;
+    left: 40%;
 }
